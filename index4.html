@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .container{
+            padding: 20px;
+        }
+        .title{
+            text-align:center;
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .products{
+            display:flex;
+            justify-content: space-around;
+        }
+        .box{
+            width: 25%;   
+            text-align: center;
+            padding: 20px 10px;
+            transition: 0.5s;
+            position: relative;
+        }
+
+        .box:hover{
+            transform: translateY(-20px)
+        }
+
+        .box p{
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .fa-solid {
+            color: rgb(233, 192, 81);
+        }
+
+        .content{
+            text-align:center;
+        }
+        
+        .box img{
+            width:100%;
+        }
+
+        .box .tag{
+            padding: 10px;
+            color: white;
+            background:rgb(207, 6, 6);
+            display:inline-block;
+            position:absolute;
+            top: 10px;   
+            left: 10px;  
+            font-size: x-large;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Trending products</h1>
+        </div>
+        <div class="products">
+            <div class="box"><a href="https://imgbb.com/"><img src="https://i.ibb.co/JKy7zhg/product-1.jpg" alt="product-1" border="0"></a>
+                <div class="content">
+                    <p>fossil</p>
+                    <p>bering rose gold still mesh</p>
+                    <p>$100.000 - $350.000</p>
+                    <p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span>(1 review)</span>
+                    </p>
+                </div>
+            </div>
+            <div class="box"><a href="https://imgbb.com/"><img src="https://i.ibb.co/vDK6F9L/product-2.jpg" alt="product-2" border="0"></a>
+                <div class="content">
+                    <p>fossil</p>
+                    <p>bering rose gold still mesh</p>
+                    <p>$100.000 - $350.000</p>
+                    <p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span>(1 review)</span>
+                    </p>
+                </div>
+            </div>
+            <div class="box"><a href="https://imgbb.com/"><img src="https://i.ibb.co/r32zB1F/product-3.jpg" alt="product-3" border="0"></a>
+                <p class="tag">-17%</p>
+                <div class="content">
+                    <p>fossil</p>
+                    <p>bering rose gold still mesh</p>
+                    <p>$100.000 - $350.000</p>
+                    <p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span>(1 review)</span>
+                    </p>
+                </div>
+            </div>
+            <div class="box"><a href="https://imgbb.com/"><img src="https://i.ibb.co/mvypFPK/product-4.jpg" alt="product-4" border="0"></a>
+                <p class="tag">-17%</p>
+                <div class="content">
+                    <p>fossil</p>
+                    <p>bering rose gold still mesh</p>
+                    <p>$100.000 - $350.000</p>
+                    <p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span>(1 review)</span>
+                    </p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
